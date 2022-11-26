@@ -39,16 +39,3 @@ class Navbar extends HTMLElement {
 }
 
 customElements.define('nav-bar', Navbar);
-
-// const activePage = window.location.pathname;
-// console.log(activePage);
-// const list = document.getElementsByClassName('x');
-// const menuItems = document.querySelectorAll('.tanda');
-
-// menuItems.forEach((item) => {
-//     if (item.querySelector('a').getAttribute('href') === activePage) {
-//         list[0].classList.add('active');
-//         console.log(item.querySelector('a').getAttribute('href'))
-        
-//     }
-// });

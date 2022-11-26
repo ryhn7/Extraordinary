@@ -8,7 +8,7 @@ class Navbar extends HTMLElement {
                 <nav id="navbar" class="navbar order-last order-lg-0">
                     <ul id="navigation">
                         <li><a class="nav-link" href="../../index.html">Home</a></li>
-                        <li class="dropdown"><a href="#"><span>About</span> <i
+                        <li class="dropdown"><a class="" href="#"><span>About</span> <i
                                     class="bi bi-chevron-down text-danger fw-bold"></i></a>
                             <ul>
                                 <li><a href="/public/about/about.html">TEDxUNDIP Journey</a></li>
@@ -17,14 +17,8 @@ class Navbar extends HTMLElement {
                                 <li><a href="/public/about/sponsorship.html">Sponsorships</a></li>
                             </ul>
                         </li>
-                        <li><a class="nav-link active" href="/public/main-event/main-event.html">Main Events</a></li>
-                        <li class="dropdown"><a href="#"><span>Order Now</span> <i
-                                    class="bi bi-chevron-down text-danger fw-bold"></i></a>
-                            <ul>
-                                <li><a href="https://ticket.tedxundip.org">Tickets</a></li>
-                                <li><a href="#">FAQ</a></li>
-                            </ul>
-                        </li>
+                        <li><a class="nav-link" href="https://ticket.tedxundip.org" target="_blank">Buy Ticket</a></li>
+                        <li><a class="nav-link active" href="/public/faq/faq.html">FAQ</a></li>
                         <li class="btn-lef" style="margin-left: 150px;">
                             <a href="https://www.twitter.com/tedxundip/" target="_blank" class="scm-header"><i
                                     class="bx bxl-twitter fs-6"></i></a>
