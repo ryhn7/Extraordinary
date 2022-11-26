@@ -18,7 +18,7 @@ class Navbar extends HTMLElement {
                             </ul>
                         </li>
                         <li><a class="nav-link" href="https://ticket.tedxundip.org" target="_blank">Buy Ticket</a></li>
-                        <li><a class="nav-link" href="#">FAQ</a></li>
+                        <li><a class="nav-link" href="/public/faq/faq.html">FAQ</a></li>
                         <li class="btn-lef" style="margin-left: 150px;">
                             <a href="https://www.twitter.com/tedxundip/" target="_blank" class="scm-header"><i
                                     class="bx bxl-twitter fs-6"></i></a>

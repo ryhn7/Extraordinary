@@ -22,7 +22,7 @@ class Footer extends HTMLElement {
                           <li><i class="bx bx-chevron-right"></i> <a href="/public/about/about.html">About</a></li>
                           <li><i class="bx bx-chevron-right"></i> <a href="https://ticket.tedxundip.org" target="_blank">Order Ticket
                           Now</a></li>
-                          <li><i class="bx bx-chevron-right"></i> <a href="#">FAQ</a>
+                          <li><i class="bx bx-chevron-right"></i> <a href="/public/faq/faq.html">FAQ</a>
                           </li>
                       </ul>
                   </div>
