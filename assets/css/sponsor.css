@@ -247,17 +247,17 @@ html::-webkit-scrollbar-thumb:active {
 /*--------------------------------------------------------------
   # Header
   --------------------------------------------------------------*/
-#header {
+/* #header {
     background: transparent;
-    /* border-bottom: 1px solid rgba(0, 0, 0, 0.85); */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.85);
     transition: all 0.5s;
     z-index: 997;
     padding: 15px 0;
     top: 40px;
     font-family: "fivo-sans", sans-serif;
-}
+} */
 
-#header.header-scrolled {
+#header{
     top: 0;
     background: rgba(0, 0, 0, 0.85);
     padding: 20px 0;
@@ -990,6 +990,7 @@ html::-webkit-scrollbar-thumb:active {
   --------------------------------------------------------------*/
 
 .section-header {
+    margin-top: 70px;
     margin-bottom: 60px;
     position: relative;
     padding-bottom: 20px;
@@ -1030,7 +1031,7 @@ html::-webkit-scrollbar-thumb:active {
   # Sections General
   --------------------------------------------------------------*/
 section {
-    padding: 60px 0;
+    padding: 100px 0;
     overflow: hidden;
 }
 
