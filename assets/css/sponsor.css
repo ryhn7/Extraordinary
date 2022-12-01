@@ -942,6 +942,7 @@ html::-webkit-scrollbar-thumb:active {
 
 .desc {
     text-align: center;
+    justify-content: center;
     margin-top: 50px;
     margin-left: 150px;
     margin-right: 180px;
