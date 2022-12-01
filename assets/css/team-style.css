@@ -1,6 +1,8 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+
 @font-face {
     font-family: "fivo-sans";
     src: url('../fonts/FivoSansModern/1586797614083-FivoSansModern-Regular.otf') format("opentype");
@@ -840,12 +842,11 @@ html::-webkit-scrollbar-thumb:active {
 
 #hero-team h1 {
     margin: 0;
-    font-size: 48px;
+    font-size: 75px;
     font-weight: 700;
     line-height: 56px;
-    color: #fff;
-    font-family: "fivo-sans", sans-serif;
-}
+    color: whitesmoke;
+    font-family: 'Rubik Distressed', cursive;}
 
 #hero-team h1 span {
     color: #E62B1E;

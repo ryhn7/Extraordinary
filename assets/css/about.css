@@ -1376,9 +1376,16 @@ section {
   # Event Section 
   --------------------------------------------------------------*/
   #event {
-    background: url('/assets/img/cs1.png');
-    height: 350px;
+    background: url('/assets/img/CSy.png') no-repeat center ;
+    height: 60vh;
+    background-size: cover;
+}
 
+@media (max-width: 768px) {
+  #event {
+    /* make height responsive to screen size */
+    height: 20vh;
+  }
 }
 
 /*--------------------------------------------------------------
