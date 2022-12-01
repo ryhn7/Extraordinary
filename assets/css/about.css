@@ -1137,13 +1137,15 @@ section {
 }
 
 .img-pre {
-  text-align: center;
+  width: 100%;
+  height: auto;
+  /* text-align: center; */
 }
 
 @media (max-width: 768px) {
   .img-pre {
-    /* make image responsive smaller in width */
-    width: 30vh;
+    /* make image small  */
+
   }
 }
 
