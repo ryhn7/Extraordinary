@@ -915,7 +915,7 @@ html::-webkit-scrollbar-thumb:active {
     /* border-right: 1px solid #e0e5fa;
     border-bottom: 1px solid #e0e5fa; */
     overflow: hidden;
-    height: 100px;
+    height: 80px;
 }
 
 #supporters .supporter-logo:hover img {
@@ -933,11 +933,11 @@ html::-webkit-scrollbar-thumb:active {
 }
 
 .main-sponsor {
-    background: url('../img/radjawali.png') no-repeat center center;
-    background-size: cover;
+
     /* height: 600px; */
     height: 100vh;
     min-height: 300px;
+    margin-bottom: 35vh;
 }
 
 .desc {
@@ -964,6 +964,11 @@ html::-webkit-scrollbar-thumb:active {
     .desc p {
         width: 100%;
     }
+
+    
+    .main-sponsor{
+        margin-bottom: 75vh;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -981,6 +986,18 @@ html::-webkit-scrollbar-thumb:active {
         text-align: center;
         /* margin-right: 250px; */
         justify-content: center;
+    }
+
+    .main-sponsor{
+        margin-bottom: 110vh;
+    }
+
+    .investree{
+        height: 70px;
+    }
+
+    .eve{
+        height: 108px;
     }
 }
 
