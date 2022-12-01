@@ -257,7 +257,7 @@ html::-webkit-scrollbar-thumb:active {
     font-family: "fivo-sans", sans-serif;
 } */
 
-#header{
+#header {
     top: 0;
     background: rgba(0, 0, 0, 0.85);
     padding: 20px 0;
@@ -946,15 +946,29 @@ html::-webkit-scrollbar-thumb:active {
     margin-left: 150px;
     margin-right: 180px;
     bottom: 220px;
-	z-index: 2;
+    z-index: 2;
 }
 
-.desc p{
-	margin: auto;
+.desc p {
+    margin: auto;
     font-size: 20px;
     font-weight: 500;
     color: #fff;
 }
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .main-sponsor {
+        margin-bottom: 70vh;
+    }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .main-sponsor {
+        margin-bottom: 80vh;
+    }
+}
+
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .desc {
@@ -965,13 +979,13 @@ html::-webkit-scrollbar-thumb:active {
         width: 100%;
     }
 
-    
-    .main-sponsor{
-        margin-bottom: 75vh;
+
+    .main-sponsor {
+        margin-bottom: 130vh;
     }
 }
 
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
     .desc {
         bottom: 125px;
     }
@@ -984,12 +998,64 @@ html::-webkit-scrollbar-thumb:active {
 
     #supporters .radjawali-desc {
         text-align: center;
-        /* margin-right: 250px; */
         justify-content: center;
     }
 
     .main-sponsor{
         margin-bottom: 110vh;
+    }
+
+    .investree{
+        height: 70px;
+    }
+
+    .eve{
+        height: 108px;
+    }
+} */
+
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+    .desc {
+        bottom: 125px;
+    }
+
+    .desc p {
+        width: 150%;
+        line-height: 1.6;
+        font-size: 16px;
+        padding-right: 50px;
+    }
+
+    #supporters .radjawali-desc {
+        text-align: center;
+        /* margin-right: 250px; */
+        justify-content: center;
+    }
+
+    .main-sponsor {
+        margin-bottom: 160vh;
+    }
+}
+
+@media (max-width: 575px) {
+    .main-sponsor {
+        margin-bottom: 130vh;
+    }
+
+    .desc {
+        bottom: 125px;
+    }
+
+    .desc p {
+        width: 150%;
+        line-height: 1.6;
+        font-size: 16px;
+    }
+
+    #supporters .radjawali-desc {
+        text-align: center;
+        margin-right: 15px;
+        justify-content: center;
     }
 
     .investree{
