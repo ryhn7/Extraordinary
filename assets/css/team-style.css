@@ -63,6 +63,10 @@ h6 {
     color: #E62B1E;
 }
 
+#main h1{
+    font-size: 32px;
+}
+
 /* responsive breakpoint yg digunakan (menyesuaikan kebutuhan) */
 @media only screen and (min-width: 1400px) {}
 
