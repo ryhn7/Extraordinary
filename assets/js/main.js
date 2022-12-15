@@ -223,3 +223,105 @@
     }
   });
 })(jQuery);
+
+/* Tidak Best Practice :v */
+
+let modal_1 = document.getElementById("myModals-1");
+let modal_2 = document.getElementById("myModals-2");
+let modal_3 = document.getElementById("myModals-3");
+let modal_4 = document.getElementById("myModals-4");
+let modal_5 = document.getElementById("myModals-5");
+let modal_6 = document.getElementById("myModals-6");
+let modal_7 = document.getElementById("myModals-7");
+
+let span = document.getElementsByClassName("close");
+var btn_1 = document.getElementById("speak-1");
+var btn_2 = document.getElementById("speak-2");
+var btn_3 = document.getElementById("speak-3");
+var btn_4 = document.getElementById("speak-4");
+var btn_5 = document.getElementById("speak-5");
+var btn_6 = document.getElementById("speak-6");
+var btn_7 = document.getElementById("speak-7");
+
+btn_1.onclick = () => {
+  modal_1.style.display = "block";
+}
+
+btn_2.onclick = () => {
+  modal_2.style.display = "block";
+}
+
+btn_3.onclick = () => {
+  modal_3.style.display = "block";
+}
+
+btn_4.onclick = () => {
+  modal_4.style.display = "block";
+}
+
+btn_5.onclick = () => {
+  modal_5.style.display = "block";
+}
+
+btn_6.onclick = () => {
+  modal_6.style.display = "block";
+}
+
+btn_7.onclick = () => {
+  modal_7.style.display = "block";
+}
+
+
+
+span[0].onclick = () => {
+  modal_1.style.display = "none";
+}
+
+span[1].onclick = () => {
+  modal_2.style.display = "none";
+}
+
+span[2].onclick = () => {
+  modal_3.style.display = "none";
+}
+
+span[3].onclick = () => {
+  modal_4.style.display = "none";
+}
+
+span[4].onclick = () => {
+  modal_5.style.display = "none";
+}
+
+span[5].onclick = () => {
+  modal_6.style.display = "none";
+}
+
+span[6].onclick = () => {
+  modal_7.style.display = "none";
+}
+
+
+window.onclick = function(event) {
+  if (event.target == modal_1) {
+    modal_1.style.display = "none";
+  }
+  if (event.target == modal_2) {
+    modal_2.style.display = "none";
+  }
+  if (event.target == modal_3) {
+    modal_3.style.display = "none";
+  }
+  if (event.target == modal_4) {
+    modal_4.style.display = "none";
+  }
+  if (event.target == modal_5) {
+    modal_5.style.display = "none";
+  }
+  if (event.target == modal_6) {
+    modal_6.style.display = "none";
+  }
+  if (event.target == modal_7) {
+    modal_7.style.display = "none";
+  }
+}
